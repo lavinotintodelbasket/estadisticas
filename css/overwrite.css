@@ -1,0 +1,649 @@
+/*
+	This is an example of a CSS overwrite file to customize the site layout. It is designed to overrides classes from these v4 CSS files: v4.skeleton.css & v4.modules.css
+*/
+
+/*****************************************
+ *  ============= Skeleton ============= *
+ *                                       *
+ *  Classes used in modules.             *
+ *      base definition: v4.skeleton.css *
+ *      site override: v4.overwrite.css  *
+ *                                       *
+ ****************************************/
+
+/* General Start */
+
+body	{ margin: 0px; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px; font-weight:normal; }
+a		{ cursor: pointer; text-decoration: none; }
+a:hover	{ text-decoration:underline; }
+table .highlight { background-color: #f8d6ba; }
+
+/* General End */
+
+/* Header Start */
+
+.head { width: 979px; background-repeat:no-repeat; position:relative; }
+.navi { position: absolute; }
+
+/* Header End */
+
+/* Content Start */
+
+.content { width: 979px; }
+
+/* Content End */
+
+/* Footer Start */
+
+.footer { width: 979px; background-repeat: repeat-x; }
+
+/* Footer End */
+
+/*****************************************
+ *                                       *
+ *  ==END==END=== Skeleton ==END===END== *
+ *                                       *
+ *****************************************/
+
+/****************************************
+ *  ============= Modules ============= *
+ *                                      *
+ *  Classes used in modules.            *
+ *      base definition: v4.modules.css *
+ *      site override: v4.overwrite.css *
+ *                                      *
+ ****************************************/
+
+.border { background-color: #FFFFFF; border: 2px solid #FFFFFF; margin-bottom: 8px; }
+.border .border { border: 0px; }
+.border-inside { background-color: #FFFFFF; }
+
+/*start myPlayers*/
+
+.myPlayers .addchange 		  { font-size: 14px; font-weight: bold; }
+.myPlayers .addchange a:hover { text-decoration:none; }
+
+.myPlayers .picture-row .item 		{ border: 1px solid #b3b3b1; background-color:#FFFFFF; }
+.myPlayers .picture-row .item:hover { border: 1px solid #FFFFFF; }
+.myPlayers .picture-row .itemactive { border: 1px solid #FFFFFF; background-color:#FFFFFF; }
+.myPlayers .picture-row .item .active, .myPlayers .picture-row .itemactive .active { background-image:url(/web/20140208120502im_/http://archive.fiba.com/img/myPlayers_pointer.gif); }
+
+.myPlayers .profile 					{ border: 1px solid #b3b3b1; background-color:#FFFFFF; }
+.myPlayers .profile .topics 			{ font-size: 14px; font-weight: bold; }
+.myPlayers .profile .topics a 			{ color: #000000; }
+.myPlayers .profile .topics a:hover 	{ text-decoration:none; }
+.myPlayers .profile .topics .active 	{ border-top: 1px solid #b3b3b1; border-right: 1px solid #b3b3b1; border-left: 1px solid #b3b3b1; background-color: #dcdcdc; }
+.myPlayers .profile .topics .notactive 	{ border-top: 1px solid #FFFFFF;}
+.myPlayers .profile .infos 				{ background-color: #dcdcdc; border: 1px solid #b3b3b1; }
+.myPlayers .profile .stats 				{ background-color: #dcdcdc; border: 1px solid #b3b3b1; font-size: 12px; }
+.myPlayers .profile .stats .tablehead 	{ font-weight: bold; }
+.myPlayers .profile .stats .nat 		{ font-weight: bold; }
+
+.myPlayers .overlay 		 { background-color:#FFFFFF; }
+.myPlayers .overlay .topic 	 { font-size: 14px; font-weight: bold; border-bottom: 1px solid #000000; }
+.myPlayers .overlay select, .myPlayers .overlay input { font-size: 12px; }
+.myPlayers .overlay .max 	 { font-size: 9px; }
+.myPlayers .overlay .close a { background-image:url(/web/20140208120502im_/http://archive.fiba.com/img/close.png); } 
+
+/*end myPlayers*/
+
+/*start userteamInfo*/
+
+.userteamInfo .module-content .inner 					  { color:#FFFFFF; font-size: 12px; }
+.userteamInfo .module-content .inner .location			  { font-weight: bold; }
+.userteamInfo .module-content .inner .stats .row-1 		  { font-weight: bold; }
+.userteamInfo .module-content .inner .stats .row-1 a 	  { font-weight: normal; color:#FFFFFF; font-size:10px; } 
+.userteamInfo .module-content .inner .stats .row-3 .nat a { color:#FFFFFF }
+
+/*end userteamInfo*/
+
+/*start siteMap*/
+
+.siteMap 						{ color: #737373; }
+.siteMap a 						{ color: #737373; }
+.siteMap .row1, .siteMap .row3  { color: #b4b4b4; font-size: 10px; border-top: 1px solid #b3b3b3; border-bottom: 1px solid #b3b3b3; }
+.siteMap .row1 .event a 		{ font-size: 10px; }
+.siteMap .row2 table th 		{ font-weight: normal; }
+
+/*end siteMap*/
+
+/*start latestNews*/
+
+.latestNews .topnews .right .date 			  { color:#A8A8A8; font-size: 10px; }
+.latestNews .topnews .right .article-headline { font-size: 14px; font-weight: bold; }
+.latestNews .topnews .right .ranking 		  { font-size: 10px; }
+.latestNews .item .right .date 				  { color:#A8A8A8; font-size: 10px; }
+.latestNews .item .right .article-headline 	  { font-size: 14px; font-weight: bold; }
+.latestNews .item .right .ranking 			  { font-size: 10px; }
+.latestNews .pager a.current 				  { font-weight: bold; }
+
+/*end latestNews*/
+
+/*start articlePage*/
+
+.articlePage .date 				  { color: #a8a8a8; font-size: 10px; }
+.articlePage .row 				  { font-size: 10px; }
+.articlePage .row .rankit 		  { font-weight: bold; }
+.articlePage .caption 			  { color: #8c8b8b; font-size: 10px; font-style:italic; }
+.articlePage .author 			  { color: #36303a; font-weight: bold; }
+.articlePage .spride span.share a { color: #0000ee; }
+.articlePage .spride span.print a { font-weight: bold; }
+
+/*start articlePage */
+
+/*start relArticles */
+
+.relArticles .relArticles-headline  { font-size: 14px; font-weight: bold; }
+.relArticles .item .release 		{ color: #a8a8a8; }
+.relArticles .item .title 			{ font-weight: bold; } 
+
+/*end relArticles */
+
+/*start comments */
+
+.comments .comment-headline .title { font-size: 14px; font-weight: bold;  }
+.comments .comment-headline .add a { font-weight: bold; }
+.comments .item 		{ border-bottom: 1px solid #999999; font-family:Arial, Helvetica, sans-serif; font-size: 11px; }
+.comments .item .author { font-weight: bold; }
+.comments .commentbox 	{ font-size: 10px; background-color: #f0f0f0; }
+.comments .commentbox .person input 	  { background-color: #ffff9f; font-size: 10px; }
+.comments .commentbox .country select 	  { font-size: 11px; }
+.comments .commentbox .commententry input { font-size: 11px; }
+
+/*end comments */
+
+/*start  newsRotator */
+
+.newsRotator .border { border: 10px solid #FFFFFF; }
+.newsRotator .left .newsbg { background-color:#eaeaea;}
+.newsRotator .left .teaser { background-image:url(/web/20140208120502im_/http://archive.fiba.com/img/teaser_bg.png); color:#FFFFFF; }
+
+/*end  newsRotator */
+
+/* fullSchedule START */
+
+.fullSchedule .module-content .inner .row 					   { font-weight: bold; }
+.fullSchedule .module-content .inner table 					   { border:1px solid #E0DFE3; }
+.fullSchedule .module-content .inner table tr td 			   { border:1px solid #E0DFE3; }
+.fullSchedule .module-content .inner table tr th 			   { font-weight: bold; background-color: #E0DFE3; }
+.fullSchedule .module-content .inner table tr.odd td 		   { background-color: #EBEBEB; }
+.fullSchedule .module-content .inner table tr td.teams .winner { background-image:url(/web/20140208120502im_/http://archive.fiba.com/img/fa/icon/arrowLink.gif); } 
+
+/* fullSchedule END */
+
+/* groupStandings START */
+
+.groupStandings .module-content .inner table.grou tr.odd td { background-color: #EBEBEB; }
+.groupStandings .module-content .inner table.grou .highlight .nodata { background-color: #E0DFE3; }
+
+.groupStandings .module-content .inner table.grou tr.odd td.team,
+.groupStandings .module-content .inner table.grou tr.even td.team,
+.groupStandings .module-content .inner table.grou tr.odd td.nr,
+.groupStandings .module-content .inner table.grou tr.even td.nr { background-color: #FFFFFF; }
+
+.groupStandings .module-content .inner table.grou tr.odd td.nodata, 
+.groupStandings .module-content .inner table.grou tr.even td.nodata { background-color: #E0DFE3; }
+
+.groupStandings .module-content .inner table.grou tr td.nr { border-left: 1px solid #E0DFE3; }
+.groupStandings .module-content .inner table.grou tr td { border-bottom: 1px solid #E0DFE3; border-right: 1px solid #E0DFE3; }
+.groupStandings .module-content .inner table.grou tr th { background-color: #E0DFE3; border-right: 1px solid #FFFFFF; }
+
+.groupStandings .module-content .inner table.grou tr th.teamh { border-top: 1px solid #E0DFE3;}
+
+.groupStandings .module-content .inner table.grou tr th.spaceright, 
+.groupStandings .module-content .inner table.grou tr th.pts { border-right: 1px solid #E0DFE3; }
+
+.groupStandings .module-content .inner table.grou tr th.spaceleft { background-color:#FFFFFF; font-size: 13px; }
+
+.groupStandings .module-content .inner table.grou .sep { border-bottom: 1px solid #FFFFFF; }
+
+.groupStandings .module-content .inner table.grou .p { border-left: 1px solid #000000; }
+
+.groupStandings .module-content .inner table.grou .l, 
+.groupStandings .module-content .inner table.grou .agst { border-right: 1px solid #000000; }
+
+/* groupStandings END */
+
+/* compRank START */
+
+.compRank .module-content .inner table.cr tr th, 
+.groupStandings .module-content .inner table.cr tr td { border-bottom: 1px solid #E0DFE3; border-right: 1px solid #E0DFE3; }
+
+.compRank .module-content .inner table.cr tr th 		{ background-color: #E0DFE3; border-right: 1px solid #FFFFFF; }
+.compRank .module-content .inner table.cr tr.odd td 	{ background-color: #EBEBEB; }
+.compRank .module-content .inner table.cr tr .spaceleft { background-color:#FFFFFF; font-size: 13px; }
+.compRank .module-content .inner table.cr tr .spaceleft .secondrow { font-size: 11px; }
+.compRank .module-content .inner table.cr .sep  { border-bottom: 1px solid #FFFFFF; }
+.compRank .module-content .inner table.cr .last { border-right: 1px solid #E0DFE3; }
+.compRank .module-content .inner table.cr .nr   { border-left: 1px solid #E0DFE3; }
+.compRank .module-content .inner table.cr .for  { border-left: 1px solid #000000; }
+
+.compRank .module-content .inner table.cr .diff, 
+.compRank .module-content .inner table.cr .lasttwo, 
+.compRank .module-content .inner table.cr .crun { border-right: 1px solid #000000; }
+
+/* compRank END */
+
+/* playerLeaders START */
+
+.playerLeaders .module-content .inner .row 					{ font-weight: bold; }
+.playerLeaders .module-content .inner .rowright 			{ font-weight: bold; }
+.playerLeaders .module-content .inner .results .displaybold { font-weight: bold; }
+.playerLeaders .module-content .inner table.pl 				{ border:1px solid #E0DFE3; }
+.playerLeaders .module-content .inner table.pl tr td 		{ border:1px solid #E0DFE3; }
+.playerLeaders .module-content .inner table.pl tr th 		{ border:1px solid #EBEBEB; background-color: #E0DFE3; }
+.playerLeaders .module-content .inner table.pl .odd td 		{ background-color: #EBEBEB; }
+.playerLeaders .module-content .inner table.pl .even td 	{ background-color: #FFFFFF; }
+.playerLeaders .module-content .inner table.pl td.active-pl { background-color: #e53333; }
+
+/* playerLeaders END */
+
+/* teamLeaders START */
+
+.teamLeaders .module-content .inner .results .displaybold 	{ font-weight: bold; }
+.teamLeaders .module-content .inner table.pl 				{ border:1px solid #E0DFE3; }
+.teamLeaders .module-content .inner table.pl tr td 			{ border:1px solid #E0DFE3; }
+.teamLeaders .module-content .inner table.pl tr th			{ border:1px solid #EBEBEB; background-color: #E0DFE3; }
+.teamLeaders .module-content .inner table.pl .odd td 		{ background-color: #EBEBEB; }
+.teamLeaders .module-content .inner table.pl .even td 		{ background-color: #FFFFFF; }
+.teamLeaders .module-content .inner table.pl td.active-pl 	{ background-color: #e53333; }
+
+/* teamLeaders END */
+
+/* playerGameHigh START */
+
+.playerGameHigh .module-content .inner .row 				 { font-weight: bold; }
+.playerGameHigh .module-content .inner .rowright 			 { font-weight: bold; }
+.playerGameHigh .module-content .inner .results .displaybold { font-weight: bold; }
+.playerGameHigh .module-content .inner table.pl 			 { border:1px solid #E0DFE3; }
+.playerGameHigh .module-content .inner table.pl tr th 		 { background-color: #E0DFE3; }
+.playerGameHigh .module-content .inner table.pl .odd td 	 { background-color: #EBEBEB; }
+.playerGameHigh .module-content .inner table.pl .even td 	 { background-color: #FFFFFF; }
+.playerGameHigh .module-content .inner table.pl td 			 { border:1px solid #E0DFE3; }
+.playerGameHigh .module-content .inner table.pl td.active-pl { background-color: #e53333; }
+
+/* playerGameHigh END */
+
+/* teamGameHigh START */
+
+.teamGameHigh .module-content .inner .row 					{ font-weight: bold; }
+.teamGameHigh .module-content .inner .rowright 				{ font-weight: bold; }
+.teamGameHigh .module-content .inner .results .displaybold 	{ font-weight: bold; }
+.teamGameHigh .module-content .inner table.pl 				{ border:1px solid #E0DFE3; }
+.teamGameHigh .module-content .inner table.pl tr th 		{ background-color: #E0DFE3; border:1px solid #EBEBEB; }
+.teamGameHigh .module-content .inner table.pl .odd td 		{ background-color: #EBEBEB; }
+.teamGameHigh .module-content .inner table.pl .even td 		{ background-color: #FFFFFF; }
+.teamGameHigh .module-content .inner table.pl td 			{ border:1px solid #E0DFE3; }
+.teamGameHigh .module-content .inner table.pl td.active-pl 	{ background-color: #e53333; }
+
+/* teamGameHigh END */
+
+/* LEGEND table START */
+
+.module-content .inner table.leg 			{ border:1px solid #E0DFE3; }
+.module-content .inner table.leg tr th 		{ border:1px solid #EBEBEB; background-color: #E0DFE3; }
+.module-content .inner table.leg td 		{ border:1px solid #E0DFE3; }
+.module-content .inner table.leg .odd td 	{ background-color: #EBEBEB; }
+.module-content .inner table.leg .even td 	{ background-color: #FFFFFF; }
+.module-content .inner table.leg .space 	{ background-color: #E0DFE3; }
+
+/* LEGEND table END */
+
+/* teamStatistics START */
+
+.teamStatistics table.accu 	  { border:1px solid #E0DFE3; }
+.teamStatistics table.accu td { border:1px solid #E0DFE3; }
+
+.teamStatistics table.accu tr.odd td, 
+.teamStatistics table.accu tr.totals td { background-color: #EBEBEB; }
+
+.teamStatistics table.accu tr th { border-right: 1px solid #EBEBEB; background-color: #E0DFE3; }
+
+.teamStatistics table.accu tr th.name, 	
+.teamStatistics table.accu tr th.g { border-right: 1px solid #EBEBEB; }
+
+.teamStatistics table.accu tr th.space { border-right: 1px solid #E0DFE3; }
+
+.teamStatistics table.accu tr th.fg, 
+.teamStatistics table.accu tr th.apts, 
+.teamStatistics table.accu tr th.bpts, 
+.teamStatistics table.accu tr th.ft, 
+.teamStatistics table.accu tr th.rb, 
+.teamStatistics table.accu tr th.space,
+.teamStatistics table.accu tr th.min { border-bottom:1px solid #EBEBEB; }
+
+.teamStatistics table.accu tr td.tota { font-weight: bold; }
+
+.teamStatistics table.accu tr td.min, 
+.teamStatistics table.accu tr td.per, 
+.teamStatistics table.accu tr td.tot { border-right: 1px solid #000000; }
+
+.teamStatistics .row-inner 	{ background-color: #E0DFE3; }
+.teamStatistics .row 		{ font-weight: bold; }
+
+/* teamStatistics END */
+
+/* playerProfile START */
+
+.playerProfile .module-content .inner .player 		{ background-color: #EBEBEB; border: 1px solid #E0DFE3; }
+.playerProfile .module-content .inner .player .bio 	{ background-color: #EBEBEB; }
+.playerProfile .module-content .inner .player .name { background-color: #E0DFE3; }
+.playerProfile .module-content .inner .player-stati table 			  { border-left: 1px solid #E0DFE3; border-right: 1px solid #E0DFE3; border-top: 1px solid #E0DFE3; }
+.playerProfile .module-content .inner .player-stati table tr.th 	  { background-color: #E0DFE3; }
+.playerProfile .module-content .inner .player-stati table tr.odd 	  { background-color: #EBEBEB; }
+.playerProfile .module-content .inner .player-stati table tr td.left  { border-right: 1px solid #E0DFE3; border-bottom: 1px solid #E0DFE3; }
+.playerProfile .module-content .inner .player-stati table tr td.right { border-bottom: 1px solid #E0DFE3; }
+.playerProfile .module-content .inner .player-stati .mains { border-bottom: 1px solid #F8F8F8; }
+
+/* playerProfile END */
+
+/* playerList START */
+
+.playerList .module-content .inner .row 					{ font-weight: bold; }
+.playerList .module-content .inner table.pList 				{ border-left: 1px solid #E0DFE3; border-bottom: 1px solid #E0DFE3; }
+.playerList .module-content .inner table.pList tr.th 		{ background-color: #E0DFE3; }
+.playerList .module-content .inner table.pList tr.th .top 	{ background-color:#FFFFFF; border-bottom: 2px solid #E0DFE3; }
+.playerList .module-content .inner table.pList tr.th .top a { color:#000000; }
+.playerList .module-content .inner table.pList tr td 		{ border-bottom: 1px solid #E0DFE3; border-right: 1px solid #E0DFE3; }
+
+/* playerList END */
+
+/* teamList START */
+
+.teamList .module-content .inner table.tList 			 { border:1px solid #E0DFE3; }
+.teamList .module-content .inner table.tList td 		 { border:1px solid #E0DFE3; }
+.teamList .module-content .inner table.tList tr th 		 { background-color: #E0DFE3; }
+.teamList .module-content .inner table.tList tr.odd td 	 { background-color: #EBEBEB;	}
+.teamList .module-content .inner table.tList tr th.space { background-color: #E0DFE3; }
+
+/* teamList END */
+
+/* accuStat START */
+
+.playerStatistics .accuStat .row 		  { font-weight: bold; }
+.playerStatistics table.accu 			  { border:1px solid #E0DFE3; }
+.playerStatistics table.accu td 		  { border:1px solid #E0DFE3; }
+
+.playerStatistics table.accu tr.odd td, 
+.playerStatistics table.accu tr.totals td { background-color: #EBEBEB; }
+
+.playerStatistics table.accu tr th 		  { border-right: 1px solid #EBEBEB; background-color: #E0DFE3; }
+
+.playerStatistics table.accu tr th.name, 
+.playerStatistics table.accu tr th.g 	  { border-right: 1px solid #EBEBEB; }
+.playerStatistics table.accu tr th.space  { border-right: 1px solid #E0DFE3; }
+
+.playerStatistics table.accu tr th.fg, 
+.playerStatistics table.accu tr th.apts, 
+.playerStatistics table.accu tr th.bpts, 
+.playerStatistics table.accu tr th.ft, 
+.playerStatistics table.accu tr th.rb, 
+.playerStatistics table.accu tr th.space,
+.playerStatistics table.accu tr th.min { border-bottom:1px solid #EBEBEB;  }
+
+.playerStatistics table.accu tr td.tota { font-weight: bold; }
+
+.playerStatistics table.accu tr td.min, 
+.playerStatistics table.accu tr td.per, 
+.playerStatistics table.accu tr td.tot { border-right: 1px solid #000000; }
+
+/* accuStat END */
+
+/* gbgStat START */
+
+.playerStatistics .gbgStat .row { font-weight: bold; }
+.playerStatistics .gbgStat table.gbg { border:1px solid #E0DFE3; }
+.playerStatistics .gbgStat table.gbg td { border:1px solid #E0DFE3; }
+
+.playerStatistics .gbgStat table.gbg tr.odd td, 
+.playerStatistics .gbgStat table.gbg tr.totals td { background-color: #EBEBEB; }
+
+.playerStatistics .gbgStat table.gbg tr th { border-right: 1px solid #EBEBEB; background-color: #E0DFE3; }
+
+.playerStatistics .gbgStat table.gbg tr th.name, 
+.playerStatistics .gbgStat table.gbg tr th.g { border-right: 1px solid #EBEBEB; }
+
+.playerStatistics .gbgStat table.gbg tr th.space { border-right: 1px solid #E0DFE3; }
+
+.playerStatistics .gbgStat table.gbg tr th.fg, 
+.playerStatistics .gbgStat table.gbg tr th.apts, 
+.playerStatistics .gbgStat table.gbg tr th.bpts, 
+.playerStatistics .gbgStat table.gbg tr th.ft, 
+.playerStatistics .gbgStat table.gbg tr th.rb, 
+.playerStatistics .gbgStat table.gbg tr th.space,
+.playerStatistics .gbgStat table.gbg tr th.min { border-bottom:1px solid #EBEBEB; }
+
+.playerStatistics .gbgStat table.gbg tr td.tota { font-weight: bold; }
+
+.playerStatistics .gbgStat table.gbg tr td.min, 
+.playerStatistics .gbgStat table.gbg tr td.per, 
+.playerStatistics .gbgStat table.gbg tr td.tot { border-right: 1px solid #000000; }
+
+/* gbgStat END */
+
+/* playerHead2Head START */
+
+.playerHead2Head .playComp .row { font-weight: bold; }
+.playerHead2Head .playComp .module-content .inner .compared-players table.ct { border:1px solid #E0DFE3; }
+
+.playerHead2Head .playComp .module-content .inner table.ct tr th, 
+.playerHead2Head .playComp .module-content .inner table.ct tr td { border:1px solid #E0DFE3; } 
+
+.playerHead2Head .playComp .module-content .inner table.ct tr.odd { background-color: #EBEBEB; }
+
+/* playerHead2Head END */
+
+/* playerEventParticipation START */
+
+.partiComp .row { font-weight: bold; }
+.playerEventParticipation .partiComp table.pc 			{ border:1px solid #E0DFE3; }
+.playerEventParticipation .partiComp table.pc tr.odd 	{ background-color: #EBEBEB; }
+.playerEventParticipation .partiComp table.pc td 		{ border:1px solid #E0DFE3;  }
+.playerEventParticipation .partiComp table.pc tr.th th  { border:1px solid #EBEBEB; background-color: #E0DFE3; }
+
+/* playerEventParticipation END */
+
+/*eventStandings START*/
+
+.eventStandings .module-content .inner table { border:1px solid #E0DFE3; }
+
+.eventStandings .module-content .inner table td, 
+.eventStandings .module-content .inner table th { border:1px solid #E0DFE3; }
+
+.eventStandings .module-content .inner table th.title { background-color: #E0DFE3; }
+.eventStandings .module-content .inner table th.space { border-bottom: 2px solid #E0DFE3; }
+.eventStandings .module-content .inner table th.title { border-bottom: 2px solid #E0DFE3; }
+
+.eventStandings .module-content .inner table th.wl, 
+.eventStandings .module-content .inner table tr.odd { background-color: #EBEBEB; }
+
+.eventStandings .module-content .inner table th.wl, 
+.eventStandings .module-content .inner table tr.even, 
+.eventStandings .module-content .inner table th.wl, 
+.eventStandings .module-content .inner table tr.th { background-color: #FFFFFF; }
+
+.eventStandings .module-content .inner table th.wl, 
+.eventStandings .module-content .inner .row { font-weight: bold; }
+
+.eventStandings .module-content .inner .row { font-size: 17px; }
+
+/*eventStandings END*/
+
+/*teamRoster START*/
+
+.teamRoster .module-content .inner table 		{ border:1px solid #E0DFE3; }
+
+.teamRoster .module-content .inner table td,
+.teamRoster .module-content .inner table th 	{ border:1px solid #E0DFE3; }
+
+.teamRoster .module-content .inner table tr.odd { background-color: #EBEBEB; }
+
+.teamRoster .module-content .inner table tr.even, 
+.teamRoster .module-content .inner table th.wl, 
+.teamRoster .module-content .inner table tr.th 	{ background-color: #FFFFFF; }
+
+.teamRoster .module-content .inner table th.wl, 
+.teamRoster .module-content .inner .row-inner 	{ background-color: #E0DFE3; }
+
+.teamRoster .module-content .inner .team .arrow { background-image: url(/web/20140208120502im_/http://archive.fiba.com/img/fa/icon/arrowLink.gif); }
+
+/*teamRoster END*/
+
+/*eventLogo START*/
+
+.eventLogo .module-content .inner .row img { border: 1px solid #d0cfcf; }
+
+/*eventLogo END*/
+
+/*finalResults START*/
+
+.finalResults .module-content .inner .row .date { font-weight: bold; }
+.finalResults .module-content .inner .row .mat  { font-size: 12px; font-weight: bold; }
+
+/*finalResults END*/
+
+/*teamSchedule START*/
+
+.teamSchedule .module-content .inner table 		   { border:1px solid #E0DFE3; }
+.teamSchedule .module-content .inner table tr td   { border-bottom: 1px solid #E0DFE3; }
+.teamSchedule .module-content .inner table tr.odd  { background-color: #E0DFE3; }
+.teamSchedule .module-content .inner table tr.even { background-color: #FFFFFF; }
+
+/*teamSchedule END*/
+
+/*teamInfo START*/
+
+.teamInfo a 	  { color: #FFFFFF; }
+.teamInfo .natimg img { color:#000000 }
+.teamInfo .border { background-color: #a60000; color: #eeedcf; font-size: 14px; font-weight: bold; }
+.teamInfo .team   { float: left; width: 43%; }
+.teamInfo .rank   { background-image: url(/web/20140208120502im_/http://archive.fiba.com/img/fa/navi/teamhead_stripe.gif); }
+.teamInfo .group  { background-image: url(/web/20140208120502im_/http://archive.fiba.com/img/fa/navi/teamhead_stripe.gif); }
+.teamInfo .team .name 		   { font-size: 22px; }
+.teamInfo .team .coach 		   { font-size: 15px; font-weight: normal; }
+.teamInfo .group .group-member { color: #FFFFFF; }
+
+/*teamInfo END*/
+
+/*playerInfo START*/
+
+.playerInfo .border 		 { background-color: #a60000; color: #eeedcf; font-size: 14px; font-weight: bold; }
+.playerInfo .team .name	 	 { font-size: 15px; }
+.playerInfo .team .player 	 { font-size: 22px; }
+
+/*playerInfo END*/
+
+/*teamEventParticipation START*/
+
+.teamEventParticipation .module-content .inner .row  { font-weight: bold; }
+.teamEventParticipation .module-content .inner table { border:1px solid #E0DFE3; }
+.teamEventParticipation .module-content table td { border:1px solid #E0DFE3; }
+.teamEventParticipation .module-content table th { background-color: #E0DFE3; border:1px solid #EBEBEB; }
+.teamEventParticipation .module-content table tr.odd  { background-color: #EBEBEB; }
+.teamEventParticipation .module-content table tr.even { background-color: #FFFFFF; }
+
+/*teamEventParticipation END*/
+
+/*boxScore START*/
+
+.boxScore .module-content .inner .row-country { font-weight: bold; }
+.boxScore .module-content table    { border:1px solid #E0DFE3; }
+.boxScore .module-content table td { border:1px solid #E0DFE3; }
+.boxScore .module-content table th { background-color: #E0DFE3; border:1px solid #EBEBEB; }
+.boxScore .module-content table th.tp 	 { border-right: 1px solid #E0DFE3; }
+.boxScore .module-content table th.space { background-color:#E0DFE3; }
+.boxScore .module-content table tr.odd   { background-color: #EBEBEB; }
+.boxScore .module-content table tr.even  { background-color: #FFFFFF; }
+
+/*boxScore END*/
+
+/*boxScoreStatistics START*/
+
+.boxScoreStatistics .module-content .inner .row-country { font-weight: bold; }
+.boxScoreStatistics table.boxS 	  { border:1px solid #E0DFE3; }
+.boxScoreStatistics table.boxS td { border:1px solid #E0DFE3; }
+
+.boxScoreStatistics table.boxS tr.odd td, 
+.boxScoreStatistics table.boxS tr.totals td { background-color: #EBEBEB; }
+
+.boxScoreStatistics table.boxS tr th { border-right: 1px solid #EBEBEB; background-color: #E0DFE3; }
+
+.boxScoreStatistics table.boxS tr th.name, 
+.boxScoreStatistics table.boxS tr th.g { border-right: 1px solid #EBEBEB; }
+
+.boxScoreStatistics table.boxS tr th.space { border-right: 1px solid #E0DFE3; }
+
+.boxScoreStatistics table.boxS tr th.fg, 
+.boxScoreStatistics table.boxS tr th.apts, 
+.boxScoreStatistics table.boxS tr th.bpts, 
+.boxScoreStatistics table.boxS tr th.ft, 
+.boxScoreStatistics table.boxS tr th.rb, 
+.boxScoreStatistics table.boxS tr th.space,
+.boxScoreStatistics table.boxS tr th.min { border-bottom:1px solid #EBEBEB; }
+
+.boxScoreStatistics table.boxS tr td.tota { font-weight: bold; }
+
+.boxScoreStatistics table.boxS tr td.min, 
+.boxScoreStatistics table.boxS tr td.per, 
+.boxScoreStatistics table.boxS tr td.tot { border-right: 1px solid #000000; }
+
+/*boxScoreStatistics END*/
+
+/*statLead START*/
+
+.statisticLeader .module-content .inner .row .statlead-notactive { font-size: 11px; background-color:#FFFFFF; border-right: 1px solid white; }
+.statisticLeader .module-content .inner .row .statlead-active 	 { font-size: 11px; background-color:#EBEBEB; border-right: 1px solid white; font-weight: bold; }
+.statisticLeader .module-content .inner .row a 	  { color: #000000; }
+.statisticLeader .module-content .inner .row .bio { background-color: #ebebeb; }
+
+.statisticLeader .module-content .inner .row .bio .na, 
+.statisticLeader .module-content .inner .rowhead { font-weight: bold; }
+
+.statisticLeader .module-content .inner table 		 { font-size: 11px; }
+.statisticLeader .module-content .inner table tr.odd { background-color: #EBEBEB; }
+
+.statisticLeader .module-content .inner table tr.even, 
+.statisticLeader .module-content .inner table tr th { background-color:#FFFFFF; border-bottom: 1px solid #E0DFE3; }
+
+/*statLead END*/
+
+/*EventHistory START*/
+
+div.EventHistory .searchresult2 .medal-gold 	{ background-image: url(/web/20140208120502im_/http://archive.fiba.com/img/fa/icon/medal_gold.gif); }
+div.EventHistory .searchresult2 .medal-silver	{ background-image: url(/web/20140208120502im_/http://archive.fiba.com/img/fa/icon/medal_silver.gif); }
+div.EventHistory .searchresult2 .medal-bronze 	{ background-image: url(/web/20140208120502im_/http://archive.fiba.com/img/fa/icon/medal_bronze.gif); }
+
+div.EventHistory .searchresult2 .table3 					{ border-left: 1px solid #E0DFE3; border-top: 1px solid #E0DFE3 }
+div.EventHistory .searchresult2 .table3 tr td 				{ border-right: 1px solid #E0DFE3; border-bottom: 1px solid #E0DFE3; }
+div.EventHistory .searchresult2 .table3 tr th 				{ background-color: #E0DFE3; border-bottom: 1px solid #EBEBEB; border-right: 1px solid  #EBEBEB; }
+div.EventHistory .searchresult2 .table3 tr th.mvp 			{ border-right: 1px solid #E0DFE3; }
+div.EventHistory .searchresult2 .table3 tr.odd td 			{ background-color: #EBEBEB; }
+
+/*EventHistory END*/
+
+/****************************************
+ *                                      *
+ *  ==END==END=== Modules ==END===END== *
+ *                                      *
+ ****************************************/
+
+/*
+     FILE ARCHIVED ON 12:05:02 Feb 08, 2014 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:37:06 Feb 23, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.528
+  exclusion.robots: 0.027
+  exclusion.robots.policy: 0.015
+  esindex: 0.012
+  cdx.remote: 94.45
+  LoadShardBlock: 1642.54 (3)
+  PetaboxLoader3.datanode: 1249.868 (5)
+  PetaboxLoader3.resolve: 637.683 (3)
+  load_resource: 532.179 (2)
+*/

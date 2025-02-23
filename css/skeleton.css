@@ -1,0 +1,197 @@
+/****************************************
+* ============== Skeleton ============= *
+*                                       *
+*  Classes used in modules.             *
+*      base definition: v4.skeleton.css *
+*      site override: v4.overwrite.css  *
+*                                       *
+****************************************/
+
+/* General Start */
+
+body	{ margin: 0px; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px; font-weight:normal; }
+
+a		{ cursor: pointer; text-decoration: none; }
+
+a:hover	{ text-decoration:underline; }
+
+.clear	{ clear: both; }
+
+table	{ font-size: 11px; }
+
+table .highlight { background-color: #f8d6ba; }
+
+.noData  { padding-left: 5px; padding-right: 5px; padding-top: 30px; padding-bottom: 10px; font-weight: bold; text-align:center; }
+
+a img { border: none; }
+
+
+
+/* General End */
+
+/* Header Start */
+
+.head {
+	width: 979px;
+	background-repeat:no-repeat;
+	position:relative;
+}
+
+.head .search {
+	position: absolute;
+}
+
+.head .input {
+	float: left;
+}
+
+.head .search .text {position:absolute; top:3px; left:148px; float:left} 
+
+.head .search a {
+	text-decoration:none;
+}
+
+.navi, navitwo {
+	position: absolute;
+}
+
+/* Header End */
+
+/* Content Start */
+
+.LeftBig {
+	width: 622px;
+	float: left;
+}
+
+.RightSmall {
+	width: 333px;
+	float: right;
+}
+
+.content {
+	width: 979px;
+}
+
+.content .headline {
+}
+
+.content-main-event {
+	padding-left: 11px;
+	padding-right:11px;
+}
+
+.content-main {
+	padding-left: 23px;
+	padding-right: 23px;
+	padding-bottom: 10px;
+}
+
+.content-main-event .sidebar_left {
+	width: 210px;
+	float:left;
+	margin-right: 8px;
+}
+
+* html .content-main-event .sidebar_left {
+	margin-right: 8px;
+}
+
+.content-main-event .container_middle {
+	width: 517px;
+	float: left;
+}
+
+.content-main-event .sidebar_right {
+	width: 210px;
+	float:left;
+	margin-left: 8px;
+}
+
+.content-main-event .content-right-event {
+	float: left;
+	width: 735px;
+}
+
+.content-main-event .container_middleright {
+	float: left;
+	width: 735px;
+}
+
+.contentCol {
+	float: left;
+	width: 933px;
+}
+
+.contentCol .TwoOfThree {
+	width: 620px;
+	padding-bottom: 20px;
+	float: left;
+}
+
+.contentCol .boxpair {
+	width: 626px;
+	float:left;
+	border-bottom: 1px solid #eeedce;
+	padding-bottom: 25px;
+}
+
+.OneOfThree {
+	float: left;
+}
+
+.OneOfThree img {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.LeftExtraBig {
+	float:left;
+	width:700px;
+}
+.RightExtraSmall {
+	float:right;
+	width:245px;
+}
+
+/* Content End */
+
+/* Footer Start */
+
+.footer {
+	width: 979px;
+	background-repeat: repeat-x;
+}
+
+/* Footer End */
+
+/*
+	==== Skeleton END ====
+*/
+/*
+	==== Modules ====
+*/
+/*
+	==== Modules END ====
+*/
+
+/*
+     FILE ARCHIVED ON 11:34:55 Feb 08, 2014 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:36:36 Feb 23, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 10.222
+  exclusion.robots: 0.04
+  exclusion.robots.policy: 0.024
+  esindex: 0.016
+  cdx.remote: 214.089
+  LoadShardBlock: 935.955 (3)
+  PetaboxLoader3.datanode: 983.029 (5)
+  load_resource: 780.256 (2)
+  PetaboxLoader3.resolve: 422.591 (2)
+*/

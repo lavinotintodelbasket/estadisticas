@@ -1,0 +1,1515 @@
+/*
+	This is file replaces v4.overwrite.css. It is designed to overrides classes from these v4 CSS files:  v4.skeleton.css & v4.modules.css
+*/
+
+/*****************************************
+ *  ============= Skeleton ============= *
+ *                                       *
+ *  Classes used in modules.             *
+ *      base definition: v4.skeleton.css *
+ *      site override: v4.overwrite.css  *
+ *                                       *
+ ****************************************/
+ 
+/* General Start */
+
+body				{ background-color: #4b4b4b; margin: auto; width: 100%; text-align:center; }
+
+a					{ color: #a60000; }
+
+a:hover				{ text-align: left; }
+
+.bold				{ font-weight:bold; }
+
+.white				{ color: #FFFFFF; }
+
+.red				{ color: #a60000; }
+
+.linkred a			{ color: #aa0000; text-decoration:none; }
+
+.linkred a:hover	{ text-decoration:underline; }
+
+.loading {
+	background-image: url(/web/20140208113937im_/http://archive.fiba.com/img/loading.gif?v2);
+	width: 80px;
+	height: 33px;
+	position:absolute;
+	left: 0px;
+	top: 0px;
+	display: none;
+}
+
+
+/* General End */
+
+/* Header Start */
+
+img.headerImgHomeLink {
+	position: absolute;
+	width: 584px;
+	height: 73px;
+	top: 61px;
+	left: 23px;
+	border: 0px; 
+}
+
+.head {
+	height: 202px;
+	background-image: url(/web/20140208113937im_/http://archive.fiba.com/img/fa/header.png?v2);
+	margin:auto;
+	text-align:left;
+}
+
+.content {
+	margin: auto; text-align:left;
+}
+
+.footer {
+	margin:auto; text-align:left;
+}
+
+.head .search {
+	width: 245px;
+	top: 22px;
+	left: 713px;
+}
+
+.head .search a {
+	color: #FFFFFF;
+}
+
+.head .search input {
+	width: 142px;
+}
+
+.head .search img {
+	border: 0px;
+	padding-bottom: 1px;
+	margin-left: 5px;
+}
+
+.head .search .searchbox-inner {
+	position: absolute;
+	background-color: #808080;
+	left: 151px;
+	top: 23px;
+	width: 135px;
+	font-size: 12px;
+	border: 1px solid #444444;
+}
+
+.head .search .searchbox-inner .option, .head .search .searchbox-inner .option-selected {
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 9px;
+}
+
+.head .search .searchbox-inner .option-selected {
+	background-image:url(/web/20140208113937im_/http://archive.fiba.com/img/fa/icon/selectboxactive.jpg);
+	background-position:left center;
+	background-repeat:no-repeat;
+	padding-left: 10px;
+	margin-left: 10px;
+}
+
+.head .input {
+	float: left;
+}
+
+.head .text {
+	font-size:14px;
+	font-weight:bold;
+	color:#FFFFFF;
+	padding-left: 10px;
+	padding-right: 17px;
+	padding-top: 3px;
+}
+
+.navi {
+	height: 33px;
+	top: 117px;
+	left: 23px;
+	position:absolute;
+}
+
+
+
+.back_to_search-notactive {
+	height: 33px;
+	width: 206px;
+	float: left;
+	background-image: url(/web/20140208113937im_/http://archive.fiba.com/img/fa/navi/eng/back_to_search_notactive.gif);
+	background-repeat:no-repeat;
+}
+
+.back_to_search-active {
+	height: 33px;
+	width: 206px;
+	float: left;
+	background-image:url(/web/20140208113937im_/http://archive.fiba.com/img/fa/navi/eng/back_to_search_active.gif);
+	background-repeat:no-repeat;
+}
+
+.key_figures-notactive {
+	height: 33px;
+	width: 132px;
+	float: left;
+	background-image:url(/web/20140208113937im_/http://archive.fiba.com/img/fa/navi/eng/key_figures_notactive.gif);
+	background-repeat:no-repeat;
+	margin-left: 5px;
+}
+
+.key_figures-active {
+	height: 33px;
+	width: 132px;
+	float: left;
+	background-image:url(/web/20140208113937im_/http://archive.fiba.com/img/fa/navi/eng/key_figures_active.gif);
+	background-repeat:no-repeat;
+	margin-left: 5px;
+}
+
+.your_search-notactive {
+	height: 33px;
+	width: 132px;
+	float: left;
+	background-image:url(/web/20140208113937im_/http://archive.fiba.com/img/fa/navi/eng/your_search_notactive.gif);
+	background-repeat:no-repeat;
+	margin-left: 195px;
+}
+
+.navi .plain-content .border {
+	border:none;
+	background-color:transparent;
+}
+
+.your_search-active {	
+	height: 33px;
+	width: 132px;
+	background-image:url(/web/20140208113937im_/http://archive.fiba.com/img/fa/navi/eng/your_search_active.gif);
+	background-repeat:no-repeat;
+}
+
+.head .navi .plain-content {
+	position:absolute;
+	left: 537px;
+	top: 0px;
+}
+
+.head .navi .yourSearch {
+	left:537px;
+	position:absolute;
+	top:0;
+}
+
+/* Header End */
+
+/* Content Start */
+
+.content-main-event .path { 
+	padding-bottom:3px; 
+	margin-left:219px;
+}
+
+.content {
+	background-color: #eeedce;
+}
+
+.content .headline-link {
+	line-height: 18px;
+	vertical-align: middle;
+	float: left;
+	margin-top: 4px;
+}
+
+.content .eventanddate {
+	clear: both;
+	margin-bottom:18px;
+}
+
+.content .headline {
+}
+
+.content .headline-2 {
+	height: 35px;
+	padding-left: 23px;
+	padding-right: 23px;
+}
+
+.content .image, .content .image-search {
+	float: left;
+}
+
+.content .image { padding-right: 13px; }
+
+.content .image-search {
+	width: 215px;
+	height: 35px;
+	background-image: url(/web/20140208113937im_/http://archive.fiba.com/img/fa/navi/eng/search.png);
+	background-repeat:no-repeat;
+}
+
+.content .image-assisted_search {
+	width: 215px;
+	height: 35px;
+	background-image: url(/web/20140208113937im_/http://archive.fiba.com/img/fa/navi/eng/assisted_search.png);
+	background-repeat:no-repeat;
+}
+
+.content .events-active {
+	width: 129px;
+	height: 35px;
+	background-image: url(/web/20140208113937im_/http://archive.fiba.com/img/fa/navi/eng/events_active.png);
+	background-repeat:no-repeat;
+	float: left;
+}
+
+.content .events-notactive {
+	width: 129px;
+	height: 35px;
+	background-image:url(/web/20140208113937im_/http://archive.fiba.com/img/fa/navi/eng/events_notactive.png);
+	background-repeat:no-repeat;
+	float: left;
+}
+
+.content .nationalteams-active {
+	width: 213px;
+	height: 35px;
+	background-image:url(/web/20140208113937im_/http://archive.fiba.com/img/fa/navi/eng/nationalteams_active.png);
+	background-repeat:no-repeat;
+	float: left;
+	margin-left: 5px;
+}
+
+.content .nationalteams-notactive {
+	width: 213px;
+	height: 35px;
+	background-image:url(/web/20140208113937im_/http://archive.fiba.com/img/fa/navi/eng/nationalteams_notactive.png);
+	background-repeat:no-repeat;
+	float: left;
+	margin-left: 5px;
+}
+
+.content .players-active {
+	width: 121px;
+	height: 35px;
+	background-image:url(/web/20140208113937im_/http://archive.fiba.com/img/fa/navi/eng/players_active.png);
+	background-repeat:no-repeat;
+	float: left;
+	margin-left: 5px;
+}
+
+.content .players-notactive {
+	width: 121px;
+	height: 35px;
+	background-image:url(/web/20140208113937im_/http://archive.fiba.com/img/fa/navi/eng/players_notactive.png);
+	background-repeat:no-repeat;
+	float: left;
+	margin-left: 5px;
+}
+
+.content-main-event .sidebar_left {
+}
+
+.content-main-event .container_middle {
+}
+
+.content-main-event .sidebar_right {
+}
+
+.assistedsearch {
+	padding-bottom: 5px;
+}
+
+.assistedsearch .module .crit {
+	height: 50px;
+	line-height: 20px;
+	font-weight: bold;
+}
+
+.assistedsearch .module .crit select {
+	width: 300px;
+}
+
+.archivesearch .active {
+	color: #000000;
+	cursor:pointer;
+}
+
+.archivesearch .active a:hover {
+	text-decoration: none;
+}
+
+.archivesearch .notactive {
+	color: #FFFFFF;
+	cursor:pointer;
+}
+
+.archivesearch .notactive a:hover {
+	text-decoration: none;
+}
+
+.content .go {
+	font-size: 14px;
+	width: 63px;
+	height: 21px;
+	float: left;
+	background-color: #aa0000;
+	margin-top:13px;
+	padding-top: 1px;
+	text-align:center;
+	vertical-align:middle;
+}
+
+.content .go a {
+	color:#FFFFFF;
+}
+
+.content .go a:hover {
+	text-decoration: none;
+}
+
+.content .as {
+	height: 30px;
+	line-height: 30px;
+	vertical-align: middle;
+	float:right;
+	padding-right: 20px;
+}
+
+.content .module {
+	background-color: #d7d6ac;
+	padding-top: 20px;
+	padding-bottom: 50px;
+	padding-left: 215px;
+}
+
+* html .content .module {
+	padding-top: 0px;
+	padding-bottom: 30px;
+	margin-bottom: 0px;
+}
+
+.content .from, .content .to, .content .keyword {
+	float: left;
+}
+
+.content .to {
+	margin-left: 5px;
+}
+
+.content .keyword {
+	padding-left: 5px;
+	width: 250px;
+}
+
+.content .keyword input {
+	width: 250px;
+}
+
+.content .search {
+	font-size: 14px;
+	width: 63px;
+	height: 21px;
+	float: left;
+	background-color: #aa0000;
+	margin-top:13px;
+	margin-left: 8px;
+	padding-top: 1px;
+	text-align:center;
+	vertical-align:middle;
+}
+
+* html .content .search {
+	margin-left: 5px;
+	margin-top:14px;
+}
+
+
+.content .search a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.content-main .searchResultPlayers .searchresult-player2, .content-main .searchResultPlayers .searchresult-player1 {
+	margin-top: 17px;
+}
+
+.content-main .searchResultPlayers .searchresult-player2 .hits {
+	background-repeat:no-repeat;	
+	height: 80px;
+	margin-left: 75px;
+	font-size: 12px;
+}
+
+.searchResultEvents .searchresult2, .searchResultEvents .searchresult1 {
+	margin-top: 17px;
+}
+
+.searchResultPlayers .searchresult-player1 .hits, .searchResultEvents .searchresult2 .hits, .searchResultEvents .searchresult1 .hits {
+	background-image: url(/web/20140208113937im_/http://archive.fiba.com/img/fa/icon/hits.png);
+	background-repeat:no-repeat;	
+	height: 33px;
+	padding-top: 6px;
+	padding-left: 29px;
+	font-size: 12px;
+	margin-bottom: 8px;
+}
+
+.nohits {
+	background-image: url(/web/20140208113937im_/http://archive.fiba.com/img/fa/icon/nohits.png);
+	background-repeat:no-repeat;	
+	height: 33px;
+	padding-top: 8px;
+	padding-left: 29px;
+	font-size: 12px;
+	margin-top: 15px;
+}
+
+.searchResultEvents .searchresult2 .table3, .searchResultPlayers .searchresult-player1 .table2 {
+	padding-bottom: 28px;
+}
+
+.searchResultEvents .searchresult2 .table3 {
+	padding-top: 20px;
+}
+
+.content-main .searchResultPlayers .searchresult-player2 .topic, div.table5 .topic  {
+	font-size: 12px;
+	padding-left: 2px;
+	padding-bottom: 3px;
+}
+
+.searchResultEvents .searchresult1 .tablehead {
+	height: 25px;
+	line-height: 25px;
+	vertical-align:middle;
+	background-color: #d7d6ac;
+	font-size: 12px;
+	border-bottom: 1px solid #FFFFFF;
+}
+
+.searchResultEvents .searchresult1 .left {
+}
+
+.searchResultEvents .searchresult1 .right {
+}
+
+.searchResultEvents .searchresult1 .eventname {
+}
+
+.searchResultEvents .searchresult1 .select {
+	float:left;
+	width: 559px;
+}
+
+.searchResultEvents .searchresult1 .topic {
+	padding-bottom: 13px;
+	padding-left: 0px;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.searchResultEvents .searchresult1 img, .searchResultEvents .searchresult2 img  {
+	float: left;
+	margin-top:-3px;
+	padding-right: 5px;
+}
+
+.searchResultEvents .searchresult1 .even, .searchResultEvents .searchresult1 .odd {
+}
+
+.searchResultEvents .searchresult1 .trenner {
+	float: left;
+	width: 5px;
+}
+
+.searchResultEvents .searchresult1 .event {
+	width: 16%;
+}
+
+*html .searchResultEvents .searchresult1 .event {
+	width: 150px;
+}
+
+.searchResultEvents .searchresult1 .table {
+	padding-bottom: 28px;
+	padding-top: 20px;
+}
+
+.content-footer {
+	text-align: right;
+}
+
+.content-footer .next-active, .content-footer .prev-active {
+	text-align:center;
+	font-size: 13px;
+	background-color: #FFFFFF;
+	border: 1px solid #a60000;
+	width: 55px;
+	height: 16px;
+	float: right;
+}
+
+
+.content-footer .next-notactive, .content-footer .prev-notactive {
+	text-align:center;
+	font-size: 13px;
+	width: 55px;
+	height: 16px;
+	float: right;
+	color: #8f8f8f;
+	background-color: transparent;
+}
+
+.content-footer .dots-right {
+	float: right;
+	font-size: 13px;
+	height: 16px;
+	border: 1px solid #eeedce;
+	padding-right: 15px;
+	font-weight: bold;
+}
+
+.content-footer .dots-left {
+	float: right;
+	font-size: 13px;
+	height: 16px;
+	border: 1px solid #eeedce;
+	padding-left: 15px;
+	font-weight: bold;
+}
+
+.content-footer .number-active {
+	text-align:center;
+	font-size: 13px;
+	font-weight: bold;
+	background-color: #FFFFFF;
+	border: 1px solid #a60000;
+	float: right;
+	width: 17px;
+	margin-left:2px;
+	margin-right:2px;
+}
+
+.content-footer .number-notactive {
+	text-align:center;
+	font-size: 13px;
+	font-weight: bold;
+	border: 1px solid #eeedce;
+	float: right;
+	width: 17px;
+	margin-left:2px;
+	margin-right:2px;
+}
+
+.content-footer .hits {
+	clear: right;
+	float: right;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 10px;
+	color: #8f8f8f;
+	text-align:right;
+}
+
+.content-footer .rpp-select {
+	font-size: 12px;
+	float:right;
+	padding-right: 10px;
+}
+
+.archiveQuickAccess .module-header .title {
+	background-image: url(/web/20140208113937im_/http://archive.fiba.com/img/fa/icon/quickaccess.png);
+	background-repeat:no-repeat;
+	width: 161px;
+	height: 35px;
+}
+
+.archiveQuickAccess .module-header {
+	border: 0px;
+}
+
+.contentCol .TwoOfThree {
+}
+
+.contentCol .boxpair {
+	background-color: #d7d6ac;
+}
+
+.contentCol .boxpair .boxpair-links {
+	padding-top: 10px;
+}
+
+.OneOfThree {
+	background-image: url(/web/20140208113937im_/http://archive.fiba.com/img/fa/misc/commercial_1.png);
+	background-repeat:no-repeat;
+	background-position:right;
+	width: 313px;
+	height: 250px;
+	margin-top: 35px;
+}
+
+.contentCol .boxpair .left {
+	width: 295px;
+	float:left;
+	background-repeat: no-repeat;
+	background-position: top left;
+	padding-top: 12px;
+	padding-left: 12px;
+	padding-tight: 6px;
+}
+
+.contentCol .boxpair .left .img {
+	padding-bottom: 15px;
+	
+}
+
+.contentCol .boxpair .right {
+	width: 301px;
+	float:left;
+	padding-top: 47px;
+	padding-left: 6px;
+	padding-right: 12px;
+}
+
+.contentCol .boxpair-headline {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.searchResultPlayers .searchresult-player1 .latestevents-li li {
+	margin: 0px;
+	padding: 0px;
+}
+
+.searchResultPlayers .searchresult-player1 .latestevents-li ul {
+	padding-top: 0px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+.searchResultEvents .searchresult2 .topic {
+	font-size: 12px;
+	font-weight: bold;
+	padding-bottom: 13px;
+	vertical-align: middle;
+}
+
+.searchResultEvents .searchresult2 .medal-gold {
+	background-image: url(/web/20140208113937im_/http://archive.fiba.com/img/fa/icon/medal_gold.gif);
+	background-repeat:no-repeat;
+	background-position: center;
+	height: 20px;
+}
+
+.searchResultEvents .searchresult2 .medal-silver {
+	background-image: url(/web/20140208113937im_/http://archive.fiba.com/img/fa/icon/medal_silver.gif);
+	background-repeat:no-repeat;
+	background-position: center;
+	height: 20px;
+}
+
+.searchResultEvents .searchresult2 .medal-bronze {
+	background-image: url(/web/20140208113937im_/http://archive.fiba.com/img/fa/icon/medal_bronze.gif);
+	background-repeat:no-repeat;
+	background-position: center;
+	height: 20px;
+}
+
+.searchResultEvents .searchresult2 .topscorer {
+}
+
+/* Content End */
+
+/* Footer Start */
+
+.footer {
+	height: 93px;
+	background-image: url(/web/20140208113937im_/http://archive.fiba.com/img/fa/footer.png);
+	color: #FFFFFF;
+	font-size:12px;
+}
+
+.footer .copyright {
+	padding-left: 23px;
+	padding-top: 11px;
+	float: left;
+}
+
+.footer .links {
+	padding-right: 23px;
+	padding-top: 11px;
+	float: right;
+	font-weight: bold;
+}
+
+.footer .links a {
+	color: #FFFFFF;
+	text-decoration:none;
+}
+
+.footer .links a:hover {
+	text-decoration:underline;
+}
+
+/* Footer End */
+
+/*****************************************
+ *                                       *
+ *  ==END==END=== Skeleton ==END===END== *
+ *                                       *
+ *****************************************/
+
+/****************************************
+ *  ============= Modules ============= *
+ *                                      *
+ *  Classes used in modules.            *
+ *      base definition: v4.modules.css *
+ *      site override: v4.overwrite.css *
+ *                                      *
+ ****************************************/
+
+.module-header {
+	background-color: #a60000;
+	color: #FFFFFF;
+	height: 20px;
+}
+
+.module-header .deco {
+	background-image: url(/web/20140208113937im_/http://archive.fiba.com/img/fa/misc/Unbenannt-1.jpg);
+}
+
+div.twoThirdLeft .module-header .deco {
+	background-image: none;
+}
+
+.print .email {
+	background-image:url(/web/20140208113937im_/http://archive.fiba.com/img/fa/icon/e_mail.gif);
+}
+
+.print .printer {
+	background-image: url(/web/20140208113937im_/http://archive.fiba.com/img/fa/icon/prin.gif);
+}
+
+/* homeLateVide START */
+
+.homeLateVide .inner .row .img a img {
+	border: 1px solid #FFFFFF;
+}
+
+.homeLateVide .inner .row .img a:hover img {
+	border: 1px solid #a60000;
+}
+
+/* homeLateVide END */
+
+/****************************************
+ *                                      *
+ *  ==END==END=== Modules ==END===END== *
+ *                                      *
+ ****************************************/
+ 
+/******************************************************************************
+ *                                                                            *
+ *  !!! temp classes to be moved to the right possition withing this file !!! *
+ *                                                                            *
+ ******************************************************************************/
+
+ .content .active {
+	background-color: #d7d6ac;
+	float: left;
+	color: #000000;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 35px;
+	vertical-align:bottom;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-right: 5px;
+	font-weight: bold;
+}
+
+.content .notactive {
+	background-color: #a60000;
+	float: left;
+	color: #FFFFFF;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 35px;
+	vertical-align: bottom;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-right: 5px;
+	font-weight: bold;
+}
+
+ 
+.table table, 
+.table2 table, 
+.table4 table,
+.table5 table,
+.searchResultEvents .searchresult2 .table3 table, 
+.searchResultTeams table {
+	width:933px;
+}
+
+.table2 {
+	padding-top: 20px;
+}
+
+.searchResultTeams table {
+	margin-bottom: 20px;
+}
+
+.searchResultTeams table tr th {
+	background-color: #d7d6ac;
+	padding-left: 7px;
+	padding-right: 7px;
+	padding-top: 7px;
+	padding-bottom: 7px;	
+}
+
+.searchResultTeams table tr.even {
+	background-color:#e7e6c4;
+}
+
+.searchResultTeams table tr.odd {
+	background-color:#eeedce;
+}
+
+.searchResultTeams table tr td {
+	padding: 8px;
+	border-bottom: 1px solid #FFFFFF;
+	border-right: 1px solid #FFFFFF;
+}
+
+.searchResultTeams table tr th.location, 
+.searchResultTeams table tr th.year, 
+.searchResultTeams table tr th.event, 
+.searchResultTeams table tr th.rank {
+	border-right: 1px solid #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+	text-align:left;
+}
+
+.searchResultTeams table tr th.space {
+	border-bottom: 1px solid #FFFFFF;
+}
+
+.searchResultTeams table tr td.year {
+	border-left: 1px solid #FFFFFF;
+}
+
+.searchResultTeams table tr td.rank, 
+.searchResultTeams table tr th.rank,
+.searchResultTeams table tr td.space,
+.searchResultTeams table tr td.year,
+.searchResultTeams table tr th.year {
+	text-align:center;
+}
+
+.searchResultTeams table tr td.event {
+	font-weight: bold;
+}
+
+
+.table5 {
+	margin-top: 21px;
+	margin-bottom: 41px;
+}
+
+.searchResultPlayers .legend {
+	text-align:right;
+	color: #44443C;
+	font-style:italic;
+	margin-bottom: 8px;
+	font-size: 12px;
+}
+
+.table5 table tr th {
+	background-color: #d7d6ac;
+	padding-left: 7px;
+	padding-right: 7px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+.table5 table tr td {
+	padding: 8px;
+	border-bottom: 1px solid #FFFFFF;
+	border-right: 1px solid #FFFFFF;
+}
+
+.table5 table tr td.borderright {
+	border-right:1px solid white;
+	border-bottom:none;
+}
+
+
+
+.table5 table tr td.noborder {
+	border: none;
+}
+
+.table5 table tr td.ta {
+	/*border-left: 1px solid #FFFFFF;*/
+	text-align:center;
+	font-weight:bold;
+}
+
+
+.table5 table tr.total td.playerstats { border-right: 1px solid #FFFFFF; }
+
+.table5 table tr.even {
+	background-color:#e7e6c4;
+}
+
+.table5 table tr.odd {
+	background-color:#eeedce;
+}
+
+.table5 table tr td.eventname {
+	border-left: 1px solid #FFFFFF;
+	width: 380px;
+	font-weight: bold;
+}
+
+.table5 table tr th.playerstats .bottom .third, .table5 table tr td.playerstats .bottom .third {
+	float: left;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 3px;
+	text-align: center;
+	width: 39px;
+}
+
+* html .table5 table tr th.playerstats .bottom .third {
+	width: 33%;
+}
+
+* html .table5 table tr td.playerstats .bottom .third {
+	width: 33%;
+}
+
+.table5 table tr th.playerstats .top {
+	width: 150px;
+} 
+
+.table5 table tr th.playerstats .bottom {
+	width: 150px;
+}
+
+.table5 table tr th.eventname {
+	text-align: left;
+}
+
+.table5 table tr td.ranking,
+.table5 table tr td.profile {
+	text-align:center;
+}
+
+.table5 table tr th.playerstats, .table5 table tr th.eventname, .table5 table tr th.ranking {
+	border-right: 1px solid #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+}
+
+.table5 table tr th.ranking img { vertical-align:middle; margin-right: 5px; }
+
+.table5 table tr th.playerstats, .table5 table tr th.playerstats {
+	width: 150px;
+}
+
+.table5 table tr th.profile {
+	border-bottom: 1px solid #FFFFFF;
+}
+
+.table2 table tr th {
+	background-color: #d7d6ac;
+	padding-left: 7px;
+	padding-right: 7px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+.table2 table tr td {
+	padding: 8px;
+	border-bottom: 1px solid #FFFFFF;
+	border-right: 1px solid #FFFFFF;
+}
+
+.table2 table tr.even {
+	background-color:#e7e6c4;
+}
+
+.table2 table tr.odd {
+	background-color:#eeedce;
+}
+
+.table2 table tr th.playername {
+	text-align: left;
+	padding-left: 8px;
+	border-right: 1px solid #FFFFFF;
+}
+.table2 table tr th.space {
+	border-right: 1px solid #FFFFFF;
+}
+
+.table2 table tr td.playerpicture {
+	border-left: 1px solid #FFFFFF;
+}
+
+.table2 table tr th.space, 
+.table2 table tr th.playername, 
+.table2 table tr th.nation, 
+.table2 table tr th.dateofbirth, 
+.table2 table tr th.latestevents {
+	border-bottom: 1px solid #FFFFFF;
+}
+
+.table2 table tr td.playerpicture {
+	text-align: center;
+	vertical-align:top;
+	width: 63px;
+}
+
+.table2 table tr td.playerpicture img {
+	background-image: url(/web/20140208113937im_/http://archive.fiba.com/img/fa/playerpicture_dummy_65x80.jpg); 
+	background-repeat: no-repeat; 
+	width: 63px; 
+	height: 78px; 
+}
+
+.table2 table tr td.playername-text, 
+.table2 table tr td.latestevents-text, 
+.table2 table tr td.dateofbirth {
+	vertical-align:top;
+}
+
+.table2 table tr td.latestevents-text ul {
+	margin-top: 0px;
+	margin-bottom: 3px;
+	padding-left: 0px;
+	/*color: #A60000;*/
+	margin-left: 14px;
+}
+
+.table2 table tr td.latestevents-text .latestevents-more {
+	padding-top: 10px;
+}
+
+.table2 table tr td.nation {
+	vertical-align:top;
+	text-align: center;
+}
+
+.table2 table tr th.nation, 
+.table2 table tr th.dateofbirth {
+	border-right: 1px solid #FFFFFF;
+}
+
+
+.searchResultEvents .searchresult2 .table3 table tr th {
+	background-color: #d7d6ac;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.searchResultEvents .searchresult2 .table3 table tr td {
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #FFFFFF;
+	border-right: 1px solid #FFFFFF;
+	vertical-align: top;
+}
+
+.searchResultEvents .searchresult2 .table3 table tr.even {
+	background-color:#e7e6c4;
+}
+
+.searchResultEvents .searchresult2 .table3 table tr.odd {
+	background-color:#eeedce;
+}
+
+
+.searchResultEvents .searchresult2 .table3 table tr th.event, 
+.searchResultEvents .searchresult2 .table3 table tr td.event {
+	text-align: left;
+	padding-left: 10px;
+	width: 25%;
+}
+
+.searchResultEvents .searchresult2 .table3 table tr td.dates, 
+.searchResultEvents .searchresult2 .table3 table tr th.dates {
+	width: 9%;
+}
+
+.searchResultEvents .searchresult2 .table3 table tr th.medal-gold, 
+.searchResultEvents .searchresult2 .table3 table tr th.medal-silver, 
+.searchResultEvents .searchresult2 .table3 table tr th.medal-bronze,
+.searchResultEvents .searchresult2 .table3 table tr td.medal-gold-text, 
+.searchResultEvents .searchresult2 .table3 table tr td.medal-silver-text, 
+.searchResultEvents .searchresult2 .table3 table tr td.medal-bronze-text {
+	width: 12%;
+}
+
+.searchResultEvents .searchresult2 .table3 table tr td.topscorer, .table3 table tr th.topscorer {
+	width: 10%;
+}
+
+.searchResultEvents .searchresult2 .table3 table tr th.event {
+	padding-bottom: 7px;
+	padding-top: 7px;
+}
+
+.searchResultEvents .searchresult2 .table3 table tr th.dates, .table3 table tr th.location {
+	padding-left: 5px;
+	padding-right: 5px;
+	text-align: left;
+}
+
+.searchResultEvents .searchresult2 .table3 table tr td.event {
+	padding-bottom: 15px;
+	border-left: 1px solid #FFFFFF;
+	font-weight: bold;
+}
+
+.searchResultEvents .searchresult2 .table3 table tr th.topscorer {
+	border-bottom: 1px solid #FFFFFF;
+	text-align:left;
+}
+
+.searchResultEvents .searchresult2 .table3 table tr th.event, 
+.searchResultEvents .searchresult2 .table3 table tr th.dates, 
+.searchResultEvents .searchresult2 .table3 table tr th.location, .table3 table tr th.medal-gold, 
+.searchResultEvents .searchresult2 .table3 table tr th.medal-silver, 
+.searchResultEvents .searchresult2 .table3 table tr th.medal-bronze {
+	border-bottom: 1px solid #FFFFFF;
+	border-right: 1px solid #FFFFFF;
+}
+ 
+.searchResultEvents .searchresult2 .table3 table tr td.topscorer {
+	text-align: left;
+}
+
+.searchResultEvents .searchresult2 .table3 table tr td.medal-gold-text, 
+.searchResultEvents .searchresult2 .table3 table tr td.medal-silver-text, 
+.searchResultEvents .searchresult2 .table3 table tr td.medal-bronze-text, {
+	text-align:left;
+}
+
+.table4 table tr th {
+	background-color: #d7d6ac;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.table4 table tr td {
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	border-bottom: 1px solid #FFFFFF;
+	border-right: 1px solid #FFFFFF;
+}
+
+.table4 table tr.even {
+	background-color:#e7e6c4;
+}
+
+.table4 table tr.odd {
+	background-color:#eeedce;
+}
+
+.table4 table tr td.eventname, .table4 table tr th.left {
+	width: 40%;
+	text-align: left;
+	border-left: 1px solid #FFFFFF;
+	padding-left: 17px;
+}
+
+.table4 table tr td.eventname {
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+.table4 table tr th.left {
+	padding-bottom: 5px;
+	padding-top: 5px;
+	border-right: 1px solid #FFFFFF;
+	border-left: 0px;
+	text-align: left;
+}
+
+.table4 table tr th.left, .table4 table tr th.right {
+	border-bottom: 1px solid #FFFFFF;
+}
+
+.table4 table tr td.event, .table4 table tr td.eventmore {
+	text-align: center;
+}
+
+.table4 table tr td.event, .table4 table tr td.event {
+	padding-left: 10px;
+	text-align: left;
+}
+
+.content-main .searchResultPlayers .searchresult-player2 .playerpicture {
+	float:left;
+	background-position: left
+}
+
+.content-main .searchResultPlayers .searchresult-player2 .playerpicture img { 
+	background-image: url(/web/20140208113937im_/http://archive.fiba.com/img/fa/playerpicture_dummy_65x80.jpg); 
+	background-repeat: no-repeat; 
+	width: 65px; 
+	height: 80px; 
+}
+
+.odd div, .even div {
+	min-height: 1px;
+}
+
+.tablerow-odd div, .tablerow-even div {
+	min-height: 1px;
+}
+
+.searchResultEvents .searchresult1 .eventmore {
+	width: 8%;
+}
+
+* html .searchResultEvents .searchresult1 .eventmore {
+}
+
+.searchResultPlayers .searchresult-player1 .latestevents-text .latestevents-more {
+}
+
+.content-main .searchresult-nation1, .content-main .searchResultTeams  {
+	margin-top: 17px;
+}
+
+.searchresult-nation1 .hits {
+	background-image: url(/web/20140208113937im_/http://archive.fiba.com/img/fa/icon/hits.png);
+	background-repeat:no-repeat;	
+	height: 33px;
+	padding-top: 8px;
+	padding-left: 29px;
+	font-size: 12px;
+}
+
+
+.searchresult-nation1 .table2 {
+	padding-bottom: 28px;
+}
+
+.searchresult-nation1 .tablehead {
+	background-color: #d7d6ac;
+	height: 25px;
+	line-height: 25px;
+	vertical-align:middle;
+	border-bottom: 1px solid #FFFFFF;
+	padding-left: 51px;
+}
+
+.searchresult-nation1 .odd, .searchresult-nation1 .even {
+	vertical-align:middle;
+	border-bottom: 1px solid #FFFFFF;
+	line-height: 25px;
+	border-left: 1px solid #FFFFFF;
+	border-right: 1px solid #FFFFFF;
+}
+
+.searchresult-nation1 .odd, .searchresult-nation1 .even {
+	vertical-align:middle;
+	border-bottom: 1px solid #FFFFFF;
+	line-height: 15px;
+	border-left: 1px solid #FFFFFF;
+	border-right: 1px solid #FFFFFF;
+}
+
+.searchresult-nation1 .even {
+	background-color: #e7e6c4;
+}
+
+.searchresult-nation1 .nationpicture {
+	width: 50px;
+	float: left;
+}
+
+.searchresult-nation1 .nationpicture img {
+	padding-top: 5px;
+	padding-left: 5px;
+}
+
+.searchresult-nation1 .nationname {
+	width: 131px;
+	float: left;
+	padding-left: 14px;
+	font-weight: bold;
+}
+
+.searchresult-nation1 .nation-text {
+	color: #a60000;
+	width: 700px;
+	float: left;
+	padding-left: 14px;
+	font-weight: bold;
+	line-height: 33px;
+}
+
+.content-main .searchResultTeams .nationpicture {
+	float:left;
+	width: 40px;
+	background-position: left;
+	margin-top: 2px;
+}
+
+.content-main .searchResultTeams .hits {	
+	height: 45px;
+	padding-bottom: 11px;
+	font-size: 12px;
+}
+
+.content-main .searchResultTeams .topic { font-size: 12px; padding-left: 2px; padding-bottom: 3px; }
+
+.searchResultTeams .table { padding-bottom: 11px; }
+
+.archiveQuickAccess .module-header { background-color: transparent; }
+
+.content-keyfigures 								{ padding-left: 23px; padding-right: 23px; padding-bottom: 10px; padding-top: 35px; }
+.content-keyfigures .top,
+.content-keyfigures .bottom 						{ width: 933px; }
+.content-keyfigures .top 							{ background-color:#eeedce; height: 250px; }
+.content-keyfigures .top .keyfigures-notactive 		{ background-color: #d7d6ac; height: 230px; cursor: pointer; }
+.content-keyfigures .top .keyfigures-active 		{ background-color: #e7e6c4; height: 250px;}
+
+.content-keyfigures .top .left 		{ width: 300px; float: left; }
+.content-keyfigures .top .middle 	{ width: 300px; float: left; margin-left: 16px; }
+.content-keyfigures .top .right 	{ width: 300px; float: right; }
+
+* html .content-keyfigures .top .left	{ width: 278px; }
+* html .content-keyfigures .top .middle	{ width: 278px; }
+* html .content-keyfigures .top .right	{ width: 278px; }
+
+.content-keyfigures .bottom { background-color: #e7e6c4; }
+
+.content-keyfigures .top .mc, 
+.content-keyfigures .top .atr,
+.content-keyfigures .top .h2h 			{ padding-left: 11px; padding-right: 11px; margin-top: 11px; }
+
+.content-keyfigures .top .th 			{ font-weight: bold; font-size: 14px; margin-bottom: 5px; }
+.content-keyfigures .top .describe 		{ margin-bottom: 15px; }
+.content-keyfigures .top select 		{ margin-bottom: 15px; width: 100%; }
+.content-keyfigures .top select.last 	{ margin-bottom: 0px; }
+
+.content-keyfigures .bottom .border		{ border: 0px; margin-bottom: 0px; background-color: #e7e6c4}
+
+.content-keyfigures .bottom .medalCount .inner 			{ padding: 11px; }
+.content-keyfigures .bottom .medalCount .medalcountevent{ font-size: 12px; font-weight: bold; padding-left: 2px; padding-bottom: 5px; }
+.content-keyfigures .bottom .medalCount table 			{ width: 911px; border-left: 1px solid #FFFFFF; border-top: 1px solid #FFFFFF; text-align:center; }
+.content-keyfigures .bottom .medalCount table tr.th 	{ background-color: #d7d6ac; }
+.content-keyfigures .bottom .medalCount table tr.odd 	{ background-color: #eeedce; }
+.content-keyfigures .bottom .medalCount table tr.even 	{ background-color: #e7e6c4; }
+.content-keyfigures .bottom .medalCount table tr th,
+.content-keyfigures .bottom .medalCount table tr td		{ padding-top: 10px; padding-bottom: 10px; padding-left: 5px; padding-right: 5px; border-right: 1px solid #FFFFFF; border-bottom: 1px solid #FFFFFF; } 
+.content-keyfigures .bottom .medalCount table tr .team 	{ text-align: left; }
+.content-keyfigures .bottom .medalCount table tr .team img { vertical-align: middle; padding-bottom: 3px; }
+.content-keyfigures .bottom .medalCount table tr .medal { width: 10%; }
+
+.content-keyfigures .bottom .head2head .inner 			{ padding-left: 11px; padding-right: 11px; padding-bottom: 11px; }
+.content-keyfigures .bottom .head2head .row				{ font-size: 12px; font-weight: bold; margin-top: 1px; }
+.content-keyfigures .bottom .head2head .row-country		{ font-size: 12px; font-weight: bold; padding-top: 11px;}
+.content-keyfigures .bottom .head2head .row-head		{ font-size: 12px; font-weight: bold; padding-bottom:5px; padding-left: 2px; padding-top: 25px; }
+.content-keyfigures .bottom .head2head .row-bottom		{ font-weight: bold; margin-top: 5px; padding-left: 2px; }
+.content-keyfigures .bottom .head2head table 			{ width: 530px; border-left: 1px solid #FFFFFF; border-top: 1px solid #FFFFFF; text-align:center; }
+.content-keyfigures .bottom .head2head table tr.th 		{ background-color: #d7d6ac; }
+.content-keyfigures .bottom .head2head table tr.odd 	{ background-color: #eeedce; }
+.content-keyfigures .bottom .head2head table tr.even 	{ background-color: #e7e6c4; }
+.content-keyfigures .bottom .head2head table tr th,
+.content-keyfigures .bottom .head2head table tr td		{ padding-top: 6px; padding-bottom: 6px; padding-left: 5px; padding-right: 5px; border-right: 1px solid #FFFFFF; border-bottom: 1px solid #FFFFFF; }
+.content-keyfigures .bottom .head2head table tr .event 	{ text-align: left; }
+.content-keyfigures .bottom .head2head table tr .year 	{ width: 5%; }
+.content-keyfigures .bottom .head2head table tr .result { width: 10%; }
+.content-keyfigures .bottom .plain-content				{ font-size: 12px; font-weight: bold; padding: 11px; padding-bottom:40px; }
+
+.content-keyfigures .bottom .alltimerecords .inner 			{ padding-left: 11px; padding-right: 11px; padding-bottom: 11px; }
+.content-keyfigures .bottom .alltimerecords .row			{ font-size: 12px; font-weight: bold; padding-left: 2px; padding-bottom: 5px; padding-top: 11px; }
+.content-keyfigures .bottom .alltimerecords table 			{ width: auto; border-left: 1px solid #FFFFFF; border-top: 1px solid #FFFFFF; text-align:left; }
+.content-keyfigures .bottom .alltimerecords table tr.th 	{ background-color: #d7d6ac; }
+.content-keyfigures .bottom .alltimerecords table tr.odd 	{ background-color: #eeedce; }
+.content-keyfigures .bottom .alltimerecords table tr.even 	{ background-color: #e7e6c4; }
+.content-keyfigures .bottom .alltimerecords table tr th,
+.content-keyfigures .bottom .alltimerecords table tr td		{ padding: 10px; border-right: 1px solid #FFFFFF; border-bottom: 1px solid #FFFFFF; } 
+.content-keyfigures .bottom .alltimerecords table tr td.odd	{background-color: #eeedce; } 
+.content-keyfigures .bottom .alltimerecords table tr td.even	{background-color: #e7e6c4; } 
+.content-keyfigures .bottom .alltimerecords table tr td.highlight	{background-color: #f8d6ba; } 
+.content-keyfigures .bottom .alltimerecords table tr .team 	{ text-align: left; }
+.content-keyfigures .bottom .alltimerecords table tr .medal { width: 10%; }
+.content-keyfigures .bottom .alltimerecords table tr .center{ text-align: center; }
+.content-keyfigures .bottom .alltimerecords .caption		{ font-weight: bold; margin-top: 5px; padding-left: 2px; color: #808080; font-size: 10px; }
+
+.content-main {}
+.content-main .oneThirdRight .plain-content .border { background-color: transparent; border: none; margin-bottom: 0px; text-align:right; margin-top: 14px; }
+.content-main .oneThirdRight .plain-content { text-align:right; }
+.content-main .oneThirdRight { width: 300px; float:right;  margin-top: 66px;}
+* html .content-main .oneThirdRight { margin-top: 47px; }
+.content-main .twoThirdLeft { width: 626px; float:left; }
+.contentCol { width: 626px; }
+.footer .plain-content .border { border: 2px solid transparent; background-color: transparent;} 
+
+.statisticLeader .module-content .inner .row .bio { padding-bottom: 13px; height: 67px;}
+
+.playerProfile .print { float:none;}
+
+div.yourSearch {}
+.yourSearch .border { background-color: transparent; border:none; }
+
+.groupStandings .print { float:none; }
+
+/*header bar*/
+.headerBar { background: #c2c4c7 url(/web/20140208113937im_/http://archive.fiba.com/img/fe/10/fwcm/bg_headerbar.gif) repeat-x 0 0; border: 1px solid #fff; border-top: none; border-left:none; border-right: none; padding: 4px 0px 4px 0px; margin:auto; position:absolute; text-align:left; width:100%; top:0px; height: 30px; z-index: 1000; }
+.headerBar .fibaLogo { float: left; position:relative; right: 5px; margin-left: 20px; }
+.headerBar .fibaLogo img,
+.headerBar .headerBarRight { position:relative; top: 2px; }
+/*header links*/
+.headerBar .headerLinks { float: left; padding-left: 3px; zoom: 1; }
+.headerBar .headerLinks li { float: left; padding: 0 12px; border-right: 1px solid #b2b2b2; position:relative; top: 2px; list-style-type: none; }
+.headerBar .headerLinks .last { border-right: none; }
+.headerBar .headerLinks a { color: #666; font-size: 11px; line-height: 25px; font-weight: bold; text-decoration: none; }
+.headerBar .headerLinks a:hover { color: #0071bc; }
+.headerBar .menu-list { list-style-position:outside; margin:0; padding:0; }
+/*text shadow*/
+.headerBar .shadow span { text-shadow: #fff 0 1px 0; filter: progid:DXImageTransform.Microsoft.DropShadow(color=#ffffff, offX=0, offY=1); zoom: 1; display: block; }
+.headerBar .shadow a span { cursor: pointer; }
+* html .headerBar .shadow span,
+* html .headerBar #contentBar .ui-tabs-selected span { filter: none; /* IE6 */ display: inline-block; }
+.head { height:241px; background-position:bottom; }
+.head .search { top: 58px; }
+.navi { top: 156px; }
+.searchBox input { right: 0px; }
+
+/*
+     FILE ARCHIVED ON 11:39:37 Feb 08, 2014 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:30:59 Feb 23, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.474
+  exclusion.robots: 0.021
+  exclusion.robots.policy: 0.013
+  esindex: 0.009
+  cdx.remote: 195.673
+  LoadShardBlock: 491.8 (3)
+  PetaboxLoader3.datanode: 387.411 (5)
+  PetaboxLoader3.resolve: 514.572 (3)
+  load_resource: 510.733 (2)
+*/
